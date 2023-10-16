@@ -8,3 +8,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'prova';
 }
+export interface Car {
+  id: number;
+  make: string;
+  model: string;
+  year: number;
+  price: number;
+  description: string;
+}
